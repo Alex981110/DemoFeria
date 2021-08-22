@@ -1,0 +1,40 @@
+.footer{
+  background: linear-gradient(90deg, #9000C4 5.02%, #0FA1B7 100.9%);
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn{
+  background-color: #4D4DFF;
+  border-radius: 32px;
+  color: #FFFFFF;
+  flex-direction: row;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  width: 150px;
+  height: 44px;
+}
+
+p{
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+.btnRedes{
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  outline:none;
+}

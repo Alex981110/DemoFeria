@@ -1,0 +1,20 @@
+.nav{
+  background-color: #4D4DFF;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  /* width: 100%; */
+}
+
+.items {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px;
+}
+
+.items:hover{
+  text-decoration: underline;
+}
