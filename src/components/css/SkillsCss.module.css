@@ -1,0 +1,116 @@
+.container-1{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.container-2{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+        "side header header"
+        "main main box"
+        "box1 box2 box3";
+    place-content: center;
+}
+
+.container-3 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 100px minmax(60px, 250px);
+    grid-template-rows: repeat(3. auto);
+}
+
+.container {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.container2 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
+
+.item1 {
+    /* place-self: end; */
+    /* border: 5px solid #f8bbd0; */
+    /* background-color: #ffeeff; */
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* grid-area: side; */
+}
+
+.item2 {
+    /* place-self: end; */
+    /* border: 5px solid #f8bbd0; */
+    /* background-color: #ffeeff; */
+    /* grid-row: 2 / 4; */
+    /* grid-area: header; */
+}
+
+.item3 {
+    /* place-self: end; */
+    /* border: 5px solid #f8bbd0; */
+    /* background-color: #ffeeff; */
+    /* grid-column: 2 / 4;
+    grid-row: 2 / 4; */
+    /* esto es lo mismo que lo de arriba
+        grid-area: 2 / 2 / 4 / 4
+        grid-area: Fila que comienza / Columna que comienza / Fila que termina / Columna que termina
+    */
+    /* grid-area: main; */
+}
+
+.item4 {
+    /* place-self: end; */
+    /* border: 5px solid #f8bbd0; */
+    /* background-color: #ffeeff; */
+    /* grid-area: box; */
+}
+
+.item5 {
+    /* place-self: end; */
+    /* border: 5px solid #f8bbd0; */
+    /* background-color: #ffeeff; */
+    /* grid-area: box1; */
+}
+
+.item6 {
+    /* place-self: end; */
+    /* border: 5px solid #f8bbd0; */
+    /* background-color: #ffeeff; */
+    /* grid-area: box2; */
+}
+
+.item7 {
+    /* place-self: end; */
+    /* border: 5px solid #f8bbd0; */
+    /* background-color: #ffeeff; */
+    /* grid-area: box3; */
+}
+
+.item8 {
+
+}
+
+.item9 {
+
+}
